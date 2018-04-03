@@ -1,12 +1,15 @@
 # node-server
 ##实现了一个能处理路由、支持静态目录的server
 ###目录结构如下：  
+```
    node-server  
       |——index.js  
       |——sample  
            |——test.html  
            |——another.thml  
-      |README.md    
+      |README.md      
+```
+
 ###服务器代码如下：  
 ```  
 var http = require('http')
@@ -69,7 +72,8 @@ var http = require('http')
       }
   
    
-   }).listen(8080)``` 
+   }).listen(8080)  
+   ```
 
   
   ###使用方法：  
@@ -77,5 +81,5 @@ var http = require('http')
 -在浏览器输入localhost:8080/getWorks可以看到页面显示：{"author":"EasonChan","works":"富士山下"}；  
 -在浏览器输入localhost:8080/getWorks?author=JayChou可以看到页面显示：{"author":"Jay Chou","works":"告白气球"}； 
 -在浏览器输入localhost:8080/getWorks?author=Joly可以看到页面显示：{"author":"Eason Chan","works":"富士山下"}；  
--在浏览器输入localhost:8080/user/Sage可以看到页面显示一个html页面([])；  
+-在浏览器输入localhost:8080/user/Sage可以看到页面显示一个html页面([https://jirengusanyue.github.io/node-server/sample/test.html])；  
 -在浏览器输入localhost:8080/another.html可以看到页面显示另一个html页面“Hello World”；
