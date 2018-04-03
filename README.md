@@ -69,8 +69,7 @@ var http = require('http')
       }
   
    
-   }).listen(8080)  
-\```  
+   }).listen(8080)\``` 
 
 ###使用方法：  
 在git bash中定位到当前node-server文件夹路径，输入"node index.js"开启静态服务器;  
