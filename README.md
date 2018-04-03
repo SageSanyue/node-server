@@ -77,9 +77,15 @@ var http = require('http')
 
   
   ###使用方法：  
--在git bash中定位到当前node-server文件夹路径，输入"node index.js"开启静态服务器;  
--在浏览器输入localhost:8080/getWorks可以看到页面显示：{"author":"EasonChan","works":"富士山下"}；  
--在浏览器输入localhost:8080/getWorks?author=JayChou可以看到页面显示：{"author":"Jay Chou","works":"告白气球"}； 
--在浏览器输入localhost:8080/getWorks?author=Joly可以看到页面显示：{"author":"Eason Chan","works":"富士山下"}；  
--在浏览器输入localhost:8080/user/Sage可以看到页面显示一个html页面https://jirengusanyue.github.io/node-server/sample/test.html  
--在浏览器输入localhost:8080/another.html可以看到页面显示另一个html页面“Hello World”；
+  
+  -在git bash中定位到当前node-server文件夹路径，输入"node index.js"开启静态服务器;  
+  
+  -在浏览器输入localhost:8080/getWorks可以看到页面显示：{"author":"EasonChan","works":"富士山下"}；  
+  
+  -在浏览器输入localhost:8080/getWorks?author=JayChou可以看到页面显示：{"author":"Jay Chou","works":"告白气球"}； 
+  
+  -在浏览器输入localhost:8080/getWorks?author=Joly可以看到页面显示：{"author":"Eason Chan","works":"富士山下"}；  
+  
+  -在浏览器输入localhost:8080/user/Sage可以看到页面显示一个html页面https://jirengusanyue.github.io/node-server/sample/test.html  
+  
+  -在浏览器输入localhost:8080/another.html可以看到页面显示另一个html页面“Hello World”；
